@@ -26,6 +26,7 @@ class RegisterViewController:GlobalViewController,UITextFieldDelegate ,UIGesture
     @IBOutlet weak var lblSpace: UILabel!
     @IBOutlet var textFieldToBottomLayoutGuideConstraint: NSLayoutConstraint!
     var loginWay = String()
+    var rivki = 0 
     
     var userRegister: User = User()
     var prefix: PrefixViewController = PrefixViewController()
